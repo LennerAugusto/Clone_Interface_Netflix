@@ -1,0 +1,106 @@
+/*TODAS AS CORES UTILIZADAS, EM FORMATO DE VARIAVEIS*/
+:root{
+	--vermelho:#E50914;   
+	--preta:#141414;
+	--cinza:#AAA;
+	--branco: #ffffff; 
+	--preto: #000000;
+}
+
+/*ELEMENTOS BASE*/
+*{
+	margin:0;
+	padding: 0;
+	box-sizing:border-box;
+}
+
+body{
+	background-color:var(--preta);
+	font-family:arial;
+}
+
+header .container{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+
+header .logo{
+	margin-left: 5px;
+	color: var(--vermelho);
+	font-family: 'Arial Black', Times;
+	font-size: 40px; 
+}
+
+header nav a{
+	text-decoration: none;
+	color: var(--cinza);
+	margin-right: 15px;
+}
+
+header nav a:hover{
+	color: #FFF;
+}
+
+/*FILME PRINCIPAL*/
+.filme_principal{
+	font-size: 16px;
+	background: url('C:/Users/Lenner/Desktop/Interface da Netflix/img/peaky_capa.jpg');
+	background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0 .50)100%);
+	
+	height: 400px;
+	background-size: cover;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+.filme_principal .descricao{
+	margin-bottom: 40px;
+	color: var(--branco);
+	margin-top: 40px;
+}
+
+.titulo{
+	margin-top: 60px;
+	font-size: 45px;
+	color: var(--branco);
+	font-family: trebuchet MS;
+}
+
+.botao{
+	background-color:rgba(0,0,0,.50);
+	border:none;
+	color: var(--branco);
+
+	padding: 15px 30px;
+
+	cursor: pointer;
+	transition: .5s ease all;
+}
+
+.botao:hover{
+	background-color: var(--branco);
+	color: var(--pretos);
+}
+
+.botao{
+	margin-right: 8px;
+}
+
+.filme_principal .container{
+	width: 60%;
+}
+
+.box-filme{
+	height: 100%;
+	width: 100%;
+	display: block;
+}
+
+.carrosel-filmes{
+	margin-top: 10px;
+}
