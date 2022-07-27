@@ -42,16 +42,48 @@ header nav a:hover{
 	color: #FFF;
 }
 
-/*AVISO DE PÁGINA EM CONSTRUÇÃO E COPYRIGHT*/
-
-h1{
-	color: #FFF;
-	text-align: center;
-	margin: 50px;
+.box-filme{
+	height: 100%;
+	width: 100%;
+	display: block;
 }
 
-footer{
+.em_alta{
+	color: var(--branco);
+	margin-top: 50px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+}
+
+.destaques{
+	color: var(--branco);
+	margin-top: 30px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+}
+
+.infantis{
+	color: var(--branco);
+	margin-top: 30px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+}
+
+.terror{
+	color: var(--branco);
+	margin-top: 30px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+}
+
+/*PRIMEIRO CARROSEL DA PÁGINA*/
+.carrosel-filmes{
+	margin-top: 20px;
+	margin-bottom: 80px;
+}
+
+.direitos{
 	color: #FFF;
 	text-align: center;
-	margin: 300px;
 }
+
