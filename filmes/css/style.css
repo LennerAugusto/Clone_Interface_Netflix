@@ -1,0 +1,57 @@
+:root{
+	--vermelho:#E50914;   
+	--preta:#141414;
+	--cinza:#AAA;
+	--branco: #ffffff; 
+	--preto: #000000;
+}
+
+/*ELEMENTOS BASE*/
+*{
+	margin:0;
+	padding: 0;
+	box-sizing:border-box;
+}
+
+body{
+	background-color:var(--preta);
+	font-family:arial;
+}
+
+header .container{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+
+header .logo{
+	margin-left: 5px;
+	color: var(--vermelho);
+	font-family: 'Arial Black', Times;
+	font-size: 40px; 
+}
+
+header nav a{
+	text-decoration: none;
+	color: var(--cinza);
+	margin-right: 15px;
+}
+
+header nav a:hover{
+	color: #FFF;
+}
+
+/*AVISO DE PÁGINA EM CONSTRUÇÃO E COPYRIGHT*/
+
+h1{
+	color: #FFF;
+	text-align: center;
+	margin: 50px;
+}
+
+footer{
+	color: #FFF;
+	text-align: center;
+	margin: 300px;
+}
