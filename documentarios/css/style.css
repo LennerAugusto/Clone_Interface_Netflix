@@ -42,16 +42,41 @@ header nav a:hover{
 	color: #FFF;
 }
 
-/*AVISO DE PÁGINA EM CONSTRUÇÃO E COPYRIGHT*/
-
-h1{
-	color: #FFF;
+.em_alta{
+	color: var(--branco);
+	margin-top: 50px;
+	margin-bottom: 20px;
+	font-family: Arial, Helvetica, sans-serif;
 	text-align: center;
-	margin: 50px;
 }
 
+.animais{
+	color: var(--branco);
+	margin-top: 50px;
+	margin-bottom: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+}
+
+.critica{
+	color: var(--branco);
+	margin-top: 50px;
+	margin-bottom: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+}
+
+.terror{
+	color: var(--branco);
+	margin-top: 50px;
+	margin-bottom: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+}
+
+/*COPYRIGHT*/
 footer{
 	color: #FFF;
 	text-align: center;
-	margin: 300px;
+	margin: 20px;
 }

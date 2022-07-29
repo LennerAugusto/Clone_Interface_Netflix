@@ -47,28 +47,32 @@ header nav a:hover{
 
 .em_alta{
 	color: var(--branco);
-	margin-top: 30px;
+	margin-top: 50px;
+	margin-bottom: 20px;
 	font-family: Arial, Helvetica, sans-serif;
 	text-align: center;
 }
 
 .drama{
 	color: var(--branco);
-	margin-top: 30px;
+	margin-top: 50px;
+	margin-bottom: 20px;
 	font-family: Arial, Helvetica, sans-serif;
 	text-align: center;
 }
 
 .maratona{
 	color: var(--branco);
-	margin-top: 30px;
+	margin-top: 50px;
+	margin-bottom: 20px;
 	font-family: Arial, Helvetica, sans-serif;
 	text-align: center;
 }
 
 .terror{
 	color: var(--branco);
-	margin-top: 30px;
+	margin-top: 50px;
+	margin-bottom: 20px;
 	font-family: Arial, Helvetica, sans-serif;
 	text-align: center;
 }	
